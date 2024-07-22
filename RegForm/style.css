@@ -1,0 +1,107 @@
+* {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url('/images/Background.svg');
+    background-repeat: no-repeat;
+    background-position: top 50% left 25%;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 42px;
+    color: #0E4A67;
+}
+
+.form-container {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.account-text {
+    color: #0E4A67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.create-text {
+    color: #f09a0f;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.form-all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label {
+    font-size: 14px;
+    color: #207198;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.input{
+    margin-top: 6px;
+    height: 70px;
+    width: 560px;
+    border: 4px solid #207198;
+    border-radius: 12px;
+    font-size: 40px;
+    color: #0E4A67;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.submit-button {
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 12px;
+    background: rgb(238,87,87);
+    background: linear-gradient(90deg, rgba(238,87,87,1) 0%, rgba(254,144,75,1) 77%, rgba(251,114,76,1) 100%);
+    font-size: 26px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.forgot-pass {
+    font-size: 20px;
+    color: #207198;
+    text-decoration: none;
+}
